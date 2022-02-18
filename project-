@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YellowBird Coffee Bar</title>
+    <meta name="description" content="This website can directly you to the yellowbird webpages">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <img src="images/yellowBird.jfif.jfif" alt="Logo of YellowBird Coffee Bar">
+        </header>
+
+        <nav>
+            <a href="https://yellowbirdre.com/">HOME</a>
+            <a href="https://www.yellowbirdcoffeebar.com/menu">MENU</a>
+            <a href="https://www.walmart.com/ip/Yellowbird-Condiment-Sauce-Habanero-9-8-oz/662258654">ORDER ONLINE</a>
+            <a href="https://www.theyellowbird.co/products/gift-card-1">GIFT VOUCHER</a>
+            <a href="https://cateringseattle.com/?gclid=CjwKCAiAlfqOBhAeEiwAYi43F3gBFECZh4Pafs-nfs52-k-OwR8TUNDv4CnOQawTu5eNQw3ZvRhOJhoC7QIQAvD_BwE">CATERING</a>
+            <a href="https://www.theyellowbird.co/pages/contact-us">CONTACT</a>
+        </nav>
+
+
+        <main>
+            <h1>let's meat</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum alias, eligendi atque repudiandae provident earum in sapiente similique vero?</p>
+            <a href="https://rocketreach.co/yellow-bird-email-format_b5dc0934f42e49f8">Make resovation now</a>
+        </main>
+
+        <section class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15166.45631427081!2d-77.32095495000002!3d18.1356044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjm!4v1641991642872!5m2!1sen!2sjm" width="1024" height="500" frameborder="0" style="border: 0;" allowfullscreen></iframe>
+
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/dgdQi-uI8VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+            <iframe width="250" height="315" src="https://www.youtube.com/embed/r3JcW8Tg6U0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </section>
+
+        <footer>
+            <p>I am the greatest!&copy;</p>
+        </footer>
+
+    </div>
+</body>
+</html>
