@@ -1,5 +1,5 @@
 # github-projects
-These are project of all sorts as well as
+These are project of all sorts
 Cs50 project
-JavaScript30
+JavaScript30 as well as
 My own projects of web designs
