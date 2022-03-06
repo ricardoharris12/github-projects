@@ -1,45 +1,41 @@
 html {
-  font-size: 10px;
+  font-size: 100px;
 }
 
 body {
-  background: #ffc600;
-  font-family: "helvetica neue";
-  font-weight: 200;
-  font-size: 20px;
+  margin: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px;
+  background-attachment: fixed;
 }
 
-.words {
-  max-width: 500px;
-  margin: 50px auto;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
-  padding: 1rem 2rem 1rem 5rem;
-  background: -webkit-gradient(
-      linear,
-      0 0,
-      0 100%,
-      from(#d9eaf3),
-      color-stop(4%, #fff)
-    )
-    0 4px;
-  background-size: 100% 3rem;
-  position: relative;
-  line-height: 3rem;
+.arrow {
+  width: 250px;
+  overflow: hidden;
+  transition: all 0.2s;
+  transform: rotate(0deg);
+  display: inline-block;
 }
 
-p {
-  margin: 0 0 3rem;
+h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
 }
 
-.words:before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  top: 0;
-  left: 30px;
-  bottom: 0;
-  border: 1px solid;
-  border-color: transparent #efe4e4;
+.units {
+  font-size: 15px;
 }
+/*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
