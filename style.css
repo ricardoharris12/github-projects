@@ -1,33 +1,45 @@
+html {
+  font-size: 10px;
+}
+
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-}
-
-#bands {
-  list-style: inside square;
+  background: #ffc600;
+  font-family: "helvetica neue";
+  font-weight: 200;
   font-size: 20px;
+}
+
+.words {
+  max-width: 500px;
+  margin: 50px auto;
   background: white;
-  width: 500px;
-  margin: auto;
-  padding: 0;
-  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(#d9eaf3),
+      color-stop(4%, #fff)
+    )
+    0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
 }
 
-#bands li {
-  border-bottom: 1px solid #efefef;
-  padding: 20px;
+p {
+  margin: 0 0 3rem;
 }
 
-#bands li:last-child {
-  border-bottom: 0;
-}
-
-a {
-  color: #ffc600;
-  text-decoration: none;
+.words:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
 }
