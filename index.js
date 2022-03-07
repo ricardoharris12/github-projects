@@ -1,15 +1,19 @@
-   // Not a ton of code, but hard to
-   const nav = document.querySelector('#main');
-   let topOfNav = nav.offsetTop;
+const divs = document.querySelectorAll('div');
+const button = document.querySelector('button');
 
-   function fixNav() {
-     if (window.scrollY >= topOfNav) {
-       document.body.style.paddingTop = nav.offsetHeight + 'px';
-       document.body.classList.add('fixed-nav');
-     } else {
-       document.body.classList.remove('fixed-nav');
-       document.body.style.paddingTop = 0;
-     }
-   }
+function logText(e) {
+  console.log(this.classList.value);
+  // e.stopPropagation(); // stop bubbling!
+  // console.log(this);
+}
 
-   window.addEventListener('scroll', fixNav);
+divs.forEach(div => div.addEventListener('click', logText, {
+  capture: false,
+  once: true
+}));
+
+button.addEventListener('click', () => {
+  console.log('Click!!!');
+}, {
+  once: true
+});
