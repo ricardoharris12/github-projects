@@ -1,69 +1,34 @@
-html {
-  box-sizing: border-box;
-  font-size: 10px;
-  background: #ffc600;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Amatic SC', cursive;
+    background-color: purple;
 }
 
 h1 {
-  text-align: center;
-  font-size: 10rem;
-  line-height: 1;
-  margin-bottom: 0;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
 }
 
-.score {
-  background: rgba(255,255,255,0.2);
-  padding: 0 3rem;
-  line-height: 1;
-  border-radius: 1rem;
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.game {
-  width: 600px;
-  height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+div {
+    text-align: center;
+    color: green;
 }
 
-.hole {
-  flex: 1 0 33.33%;
-  overflow: hidden;
-  position: relative;
+a button {
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.PYipJ_hSncugM2SwnZitvgHaEK&pid=Api&P=0&w=306&h=172 );
 }
 
-.hole:after {
-  display: block;
-  background: url(dirt.svg) bottom center no-repeat;
-  background-size: contain;
-  content: '';
-  width: 100%;
-  height:70px;
-  position: absolute;
-  z-index: 2;
-  bottom: -30px;
-}
-
-.mole {
-  background: url('mole.svg') bottom center no-repeat;
-  background-size: 60%;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  height: 100%;
-  transition:all 0.4s;
-}
-
-.hole.up .mole {
-  top: 0;
+a button {
+  background-color: blue;
+  color: white;
+  margin-top: 15px;
 }
