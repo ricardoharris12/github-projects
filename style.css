@@ -1,34 +1,232 @@
 body {
-    background-color: purple;
+    background-color: brown;
 }
 
-h1 {
+.content {
+    background: fixed;
     text-align: center;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
 }
 
-p {
+header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.705);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav a {
     color: white;
+    padding-left: 50px; 
+    text-decoration: none;   
 }
 
-div {
+main {
     text-align: center;
-    color: green;
+    background-color:aliceblue;
+    cursor: auto;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: left;
+    height: 100px;
+}
+
+.box1 {
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box2 {
+    margin-left: 250px;
+    margin-top: -70px;
+    height: 70px;
+    width: 150px;
+}
+
+.box3 {
+    margin-left: 440px;
+    margin-top: -70px;
+    height: 70px;
+    width: 150px;
+}
+
+.box4 {
+    margin-left: 630px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box5 {
+    margin-left: 820px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box6 {
+    margin-left: 60px;
+    margin-top: 120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box7 {
+    margin-left: 250px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box8 {
+    margin-left: 440px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box9 {
+    margin-left: 630px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box10 {
+    margin-left: 820px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box11 {
+    margin-left: 60px;
+    margin-top: 120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box12 {
+    margin-left: 250px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box13 {
+    margin-left: 440px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box14 {
+    margin-left: 630px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
+}
+
+.box15 {
+    margin-left: 820px;
+    margin-top: -120px;
+    padding-top: 50px;
+    height: 70px;
+    width: 150px;
 }
 
 a button {
-    background-color: green;
-    color: white;
-    margin-top: 15px;
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.PYipJ_hSncugM2SwnZitvgHaEK&pid=Api&P=0&w=306&h=172 );
+     color: gold;
+     text-decoration: solid;
+     text-shadow: silver;
+     background-color: grey;
+     margin-bottom: -auto;
+     height: 25px;
+     width: 150px;
+ }
+
+.i {
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 3px 3px;
+    font-size: 5px;
+    width: 15px;
+    text-decoration: none;
 }
 
-a button {
-  background-color: blue;
-  color: white;
-  margin-top: 15px;
+.fa {
+     padding: 10px;  
+     text-align: center; 
+     border-radius: 50px; 
+     margin: 3px 3px;
+     font-size: 5px;  
+     width: 15px; 
+     text-decoration: none;
+    }  
+
+.bi {
+    padding: 10px;  
+    text-align: center; 
+    border-radius: 50px; 
+    margin: 3px 3px;  
+    font-size: 16px;  
+    width: 15px; 
+    text-decoration: none;
+}  
+
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}  
+
+.fa-google {  
+  background: #dd4b39;  
+  color: white;  
+}  
+
+.fa-github {  
+  background: black;  
+  color: white;  
+}  
+
+.bi-tiktok {
+    background: grey;
+    color: white;
+}
+
+.fa:hover {  
+    opacity: 0.9;  
+}  
+
+.bi:hover {
+    opacity: 0.9;
 }
