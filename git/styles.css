@@ -181,7 +181,7 @@ nav a {
     }
 
     .wrapper {
-        width: 600px;
+        width: 600 auto;
         margin: 0 auto;
     } 
 
