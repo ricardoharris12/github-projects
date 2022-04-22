@@ -22,7 +22,8 @@ html, body {
 }
 
 .disappear {
-    animation: vanish 2s forwards;
+     animation: vanish 2s forwards;
+     animation-delay: 5s;
 }
 
 /*button 1*/
