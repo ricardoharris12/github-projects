@@ -169,10 +169,15 @@ main {
   color: white;  
 }  
 
-.fa-google {  
+.fa-gmail {  
   background: #dd4b39;  
   color: white;  
-} 
+}
+
+.iconify {
+  background: url('https://api.iconify.design/simple-icons/gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/simple-icons/gmail.svg');
+}
 
 .bi-tiktok {
     background: grey;
