@@ -14,10 +14,6 @@ html, body {
     margin-right: auto;
 }
 
-.wrapper {
-    width: 100%;
-}
-
 .wrapper p {
     cursor: url("images/cool3.png"), auto;
 }
@@ -181,7 +177,6 @@ main {
 
 @media (min-width: 758px) {
 
-
     .img-banner {
         display: block;
         width: 100%;
@@ -190,6 +185,7 @@ main {
     }
 
     .wrapper {
+        width: 100%
         margin: 0 auto;
     } 
 
