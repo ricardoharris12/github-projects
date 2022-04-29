@@ -11,7 +11,6 @@ html, body {
 }
 
 .container {
-    width: 1024px;
     margin-left: auto;
     margin-right: auto;
     
@@ -100,7 +99,6 @@ footer {
 }
 
 .wrapper {
-    width: 100%;
     background-color: rgba(128, 0, 128, 0.571);
 }
 
@@ -257,7 +255,7 @@ nav button:hover {
     }
 }
 
-@media only screen and (min-width: 758px) {
+@media (min-width: 758px) {
 
     .img-banner {
         display: block;
@@ -266,7 +264,6 @@ nav button:hover {
     }
 
     .wrapper {
-        width: 100%;
         margin: 0 auto;
     } 
 
@@ -283,7 +280,7 @@ nav button:hover {
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
     
     .wrapper {
         width: 1024px;
