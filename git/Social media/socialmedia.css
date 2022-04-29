@@ -157,7 +157,12 @@ main {
 .fa-twitter {  
   background: #55ACEE;  
   color: white;  
-}  
+}
+
+.fa-facebook {
+    background: #4267B2;
+    color: white;
+}
   
 .fa-whatsapp {  
   background: #008000;  
