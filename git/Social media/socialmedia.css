@@ -4,7 +4,6 @@
 }
 
 html {
-    height: 100%
     cursor: url("images/cool1.png"), auto;
 }
 
@@ -28,11 +27,21 @@ body {
     cursor: url("images/cool2.png"), auto;
 }
 
+.img-banner {
+    display: none;
+    float: left;
+}
+
+.img-info {
+    width: 100%;
+    float: right;
+}
+
 .img-info h3 {
     padding: 30px 30px 20px;
     font-family: arial;
     font-size: 50px;
-    color:maroon;
+    color: maroon;
     line-height: 44px;
     text-decoration: underline;
 }
@@ -248,38 +257,29 @@ nav button:hover {
 }
 
 @media (max-width: 100%) {
-    
-.img-banner {
-    display: none;
-}
 
-.img-info {
-    width: 100%;
-}
-   
-
-.img-info p {
-    padding: 20px 0px 0px;
-}
-
-.img-banner {
-    display: block;
-    width: 50%;
-    margin-top: 20px;
+    .img-banner {
+        display: block;
+        width: 50%;
+        margin-top: 20px;
     }
 
-.wrapper {
-    width: 100%;
-    margin: 0 auto;
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
     } 
 
-.img-info h1 {
-    padding: 20px 0px 0px;
+    .img-info h1{
+        padding: 20px 0px 0px;
     }
 
-.img-me {
-    margin-top: 20px;
-    width: 100%;
+   .img-info p {
+       padding: 20px 0px 0px;
+    }
+
+    .img-me {
+        margin-top: 20px;
+        width: 100%;
     }
 }
 
