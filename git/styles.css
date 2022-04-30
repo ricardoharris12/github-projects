@@ -4,9 +4,58 @@
 }
 
 html {
-    height: 100%;
+    --layout_-_display: flex;
+    --layout-inline_-_display: inline-flex;
+    --layout-horizontal_-_display: var(--layout_-_display);
+    --layout-horizontal_-_flex-direction: row;
+    --layout-horizontal-reverse_-_display: var(--layout_-_display);
+    --layout-horizontal-reverse_-_flex-direction: row-reverse;
+    --layout-vertical_-_display: var(--layout_-_display);
+    --layout-vertical_-_flex-direction: column;
+    --layout-vertical-reverse_-_display: var(--layout_-_display);
+    --layout-vertical-reverse_-_flex-direction: column-reverse;
+        --layout-vertical-reverse_-_flex-direction: column-reverse;
+    --layout-wrap_-_flex-wrap: wrap;
+    --layout-wrap-reverse_-_flex-wrap: wrap-reverse;
+    --layout-flex-auto_-_flex: 1 1 auto;
+    --layout-flex-none_-_flex: none;
+    --layout-flex_-_flex: 1;
+    --layout-flex_-_flex-basis: 0.000000001px;
+    --layout-flex-2_-_flex: 2;
+    --layout-flex-3_-_flex: 3;
+    --layout-flex-4_-_flex: 4;
+    --layout-flex-5_-_flex: 5;
+    --layout-flex-6_-_flex: 6;
+    --layout-flex-7_-_flex: 7;
+    --layout-flex-8_-_flex: 8;
+    --layout-flex-9_-_flex: 9;
+    --layout-flex-10_-_flex: 10;
+    --layout-flex-11_-_flex: 11;
+    --layout-flex-12_-_flex: 12;
+    --layout-start_-_align-items: flex-start;
+    --layout-center_-_align-items: center;
+    --layout-end_-_align-items: flex-end;
+    --layout-baseline_-_align-items: baseline;
+    --layout-start-justified_-_justify-content: flex-start;
+    --layout-center-justified_-_justify-content: center;
+    --layout-end-justified_-_justify-content: flex-end;
+    --layout-around-justified_-_justify-content: space-around;
+    --layout-justified_-_justify-content: space-between;
+    --layout-center-center_-_align-items: var(--layout-center_-_align-items);
+    --layout-center-center_-_justify-content: var(--layout-center-justified_-_justify-content);
+    --layout-self-start_-_align-self: flex-start;
+    --layout-self-center_-_align-self: center;
+    --layout-self-end_-_align-self: flex-end;
+    --layout-self-stretch_-_align-self: stretch;
+    --layout-self-baseline_-_align-self: baseline;
+    --layout-start-aligned_-_align-content: flex-start;
+    --layout-end-aligned_-_align-content: flex-end;
+    --layout-center-aligned_-_align-content: center;
+    --layout-between-aligned_-_align-content: space-between;
+    --layout-around-aligned_-_align-content: space-around;
+    --layout-block_-_display: block;
+    --layout-invisible_-_visibility: hidden !important;
     cursor: url("images/cool1.png"), auto;
-   
 }
 
 body {
