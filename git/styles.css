@@ -12,14 +12,6 @@ body {
     align-items: center;
 }
 
-body {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    margin: 0;
-}
-
 main {
     margin-top: 10px;
     border-radius: 5px;
