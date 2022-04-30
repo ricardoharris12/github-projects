@@ -8,6 +8,10 @@ html {
     cursor: url("images/cool1.png"), auto;
 }
 
+body {
+    height: 100%;
+}
+
 .wrapper p {
     cursor: url("images/cool3.png"), auto;
 }
