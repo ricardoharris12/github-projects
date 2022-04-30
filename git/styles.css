@@ -3,16 +3,16 @@
     padding: 0;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html {
+    height: 100%;
     cursor: url("images/cool1.png"), auto;
-    background-color: rgba(192, 192, 192, 0.45);
+   
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto; 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 192, 192, 0.45);
 }
 
 main {
@@ -254,7 +254,12 @@ nav button:hover {
     }
 }
 
-@media (min-width: 758px) {
+@media (max-width: 100%) {
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .img-banner {
         display: block;
@@ -280,7 +285,7 @@ nav button:hover {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 100%) {
     
     .wrapper {
         width: 1024px;
