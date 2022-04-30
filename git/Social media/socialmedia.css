@@ -4,7 +4,7 @@
 }
 
 html {
-        --layout_-_display: flex;
+    --layout_-_display: flex;
     --layout-inline_-_display: inline-flex;
     --layout-horizontal_-_display: var(--layout_-_display);
     --layout-horizontal_-_flex-direction: row;
@@ -14,7 +14,7 @@ html {
     --layout-vertical_-_flex-direction: column;
     --layout-vertical-reverse_-_display: var(--layout_-_display);
     --layout-vertical-reverse_-_flex-direction: column-reverse;
-        --layout-vertical-reverse_-_flex-direction: column-reverse;
+    --layout-vertical-reverse_-_flex-direction: column-reverse;
     --layout-wrap_-_flex-wrap: wrap;
     --layout-wrap-reverse_-_flex-wrap: wrap-reverse;
     --layout-flex-auto_-_flex: 1 1 auto;
@@ -338,11 +338,6 @@ nav button:hover {
 }
 
 @media (max-width: 100%) {
-    
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .img-banner {
         display: block;
