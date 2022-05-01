@@ -9,7 +9,6 @@ html {
 
 body {
     height: 100vh;
-    align-items: center;
 }
 
 main {
@@ -285,7 +284,6 @@ nav button:hover {
 
     .img-info {
         width: 50%;
-        float: right;
     }
 
     .img-info h1 {
@@ -299,7 +297,6 @@ nav button:hover {
     .img-me {
         padding-top: 0px;
         width: 50%;
-        float: left;
     }
 }
 
