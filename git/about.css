@@ -7,18 +7,6 @@ html {
     cursor: url("images/cool1.png"), auto;
 }
 
-body {
-    align-items: center;
-}
-
-.img-info h2 {
-    padding: 20px 0px 0px;
-}
-
-.img-info p {
-    padding: 20px 0px 0px;
-}
-
 .wrapper p {
     cursor: url("images/cool3.png"), auto;
 }
@@ -191,22 +179,38 @@ main {
      margin-top: 20px;
      margin-bottom: 20px;
     }
+    
+.img-info h2 {
+    padding: 20px 0px 0px;
+    }
+
+.img-info p {
+    padding: 20px 0px 0px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
     
 .wrapper {
     width: 1024px;
- }
+    }
 
 .img-info {
     width: 50%;
     float: left;
-}
+    }
 
 .img-me {
     padding-top: 0px;
     width: 50%;
     float: left;
+    }
+    
+.img-info h2 {
+    padding: 20px 0px 0px;
+    }
+
+.img-info p {
+    padding: 20px 0px 0px;
     }
 }
