@@ -7,10 +7,6 @@ html {
     cursor: url("images/cool1.png"), auto;
 }
 
-body {
-    align-items: center;
-}
-
 .wrapper h3 {
     cursor: url("images/cool3.png"), auto;
 }
@@ -29,12 +25,10 @@ body {
 
 .img-banner {
     display: none;
-    float: left;
 }
 
 .img-info {
     width: 100%;
-    float: right;
 }
 
 .img-info h3 {
