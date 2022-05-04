@@ -26,7 +26,7 @@
   height: 10%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
 
   &__menu {
@@ -164,6 +164,10 @@
 @media (max-width: 650px){
   .header {
     justify-content: center;
+    
+    &__menu {
+      display: content;
+    }
     
   }
 
