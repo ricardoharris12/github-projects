@@ -26,7 +26,7 @@
   height: 10%;
   display: flex;
   flex-direction: row;
-  justify-content:right;
+  justify-content: right;
   align-items: center;
 
   &__menu {
@@ -165,7 +165,7 @@
   .header {
     justify-content: center;
 
-    &__menu{
+    &__menu {
       display: contents;
     }
   }
