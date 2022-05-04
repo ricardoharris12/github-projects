@@ -102,7 +102,7 @@
 }
 
 .main__text-2, .main__text-3, .main__text-4 {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .footer {
@@ -247,7 +247,7 @@
     display: none;
   }
   .main__text-2, .main__text-3, .main__text-4 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .footer {
     -webkit-box-pack: center;
