@@ -29,10 +29,6 @@
   justify-content: space-between;
   align-items: center;
 
-  &__logo {
-    font-size: 4vw;
-  }
-
   &__menu {
     display: flex;
     flex-direction: row;
@@ -168,13 +164,7 @@
 @media (max-width: 650px){
   .header {
     justify-content: center;
-    &__logo{
-      font-size: 40px;
-    }
-
-//     &__menu{
-//       display: none;
-//     }
+    
   }
 
   .main {
