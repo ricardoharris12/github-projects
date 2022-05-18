@@ -62,12 +62,13 @@
   button:hover {
     background-color: green;
     border: 2px solid red;
+    cursor: pointer;
   }
 
   button:active {
-    animation-fill-mode: backwards;
-    transform: scale(0);
-    color: white;
+    background-color: rgba(0, 128, 0, 0.272);
+    border: 2px solid rgba(255, 0, 0, 0.24);
+ 
   }
 
   &__menu link:first-child {
@@ -105,6 +106,9 @@
       font-size: 10vh;
     }
     &-2 {
+      span {
+        color: #124581;
+      }
       font-size: 3vw;
     }
   }
@@ -149,7 +153,7 @@
   }
   
   &__facebook {
-    background-color: rgba(0, 0, 255, 0.566);
+    background-color: rgba(0, 34, 255, 0.712);
     padding-top: 8px;
     padding-bottom: -3px;
     border-radius: 50%;
@@ -262,8 +266,7 @@
     margin: 0;
 
     &__menu {
-      margin: 0 2;
-      font-size: 0vw;
+      margin: 0;
       justify-content: center;
       align-items: center;
       flex-direction: row;
@@ -287,7 +290,7 @@
       width: 50%;
       
       &-1 {
-        font-size: 8vh;
+        font-size: 7vh;
         display: contents;
       }
 
