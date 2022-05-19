@@ -78,14 +78,12 @@
 .header button:hover {
   background-color: green;
   border: 2px solid red;
+  cursor: pointer;
 }
 
 .header button:active {
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  color: white;
+    background-color: rgba(0, 128, 0, 0.272):
+    border: 2px solid rgba(255, 0, 0, 0.24);
 }
 
 .header__menu link:first-child {
@@ -146,6 +144,10 @@
   font-size: 3vw;
 }
 
+.main__text-2 span {
+  color: #124581;
+}
+
 .footer {
   height: 10%;
   display: -webkit-box;
@@ -194,7 +196,7 @@
 }
 
 .footer__facebook {
-  background-color: rgba(0, 0, 255, 0.566);
+  background-color: rgba(0, 34, 255, 0.712);
   padding-top: 8px;
   padding-bottom: -3px;
   border-radius: 50%;
@@ -373,8 +375,7 @@
     margin: 0;
   }
   .header__menu {
-    margin: 0 2;
-    font-size: 0vw;
+    margin: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -409,7 +410,7 @@
     width: 50%;
   }
   .main__text-1 {
-    font-size: 8vh;
+    font-size: 7vh;
     display: contents;
   }
   .main__text-2 {
