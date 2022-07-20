@@ -18,19 +18,23 @@
       <div class="header__menu"><a href="http://127.0.0.1:5500/Details.html"><button onclick="confirm">Details</button></a></div>
     </div>
   </div>
-  <div class="main__text">
-    <br>
-    <br>
-    <h1>
-      Information on how to pay:
-    </h1>
-    <br>
-    <h2>JMD</h2>
-    <br>
-    <ul>
-      <li>
-        Beneficiary Name: Ricardo Harris
-      </li>
+  <div class="main">
+    <div class="main__text">
+      <div class="main__text-1">
+        <br>
+        <br>
+        <h1>
+          Information on how to pay:
+        </h1>
+      </div>
+      <div class="main__text-2">
+      <br>
+      <h2>JMD</h2>
+      <br>
+      <ul>
+        <li>
+          Beneficiary Name: Ricardo Harris
+        </li>
   
         <li>
           Beneficiary Account No: 006400179780
@@ -215,7 +219,8 @@
     </ul>
   </div>
   <br>
- </div>
+</div>
+</div>
 </body>
 <script src="main.js"></script>
 </html>
